@@ -10,6 +10,39 @@ body {
 }
 
 header, section, nav, main, article {
-    display: block;
-    min-width: 100%;
+    display:    block;
+    width:      100ww;
+    padding:    15px;
+    text-align: center;
 }
+
+nav {
+    background-color: #5995DA;
+}
+
+header {
+    background-color: #B2D6FF;
+}
+
+main {
+    background-color: #EAEDF0;
+}
+
+section {
+    background-color: #D6E9FE;
+}
+
+/* Background colors */
+
+.bg-yellow {
+    background-color: #F5CF8D;
+}
+
+.bg-red {
+    background-color: #F09A9D;
+}
+
+.bg-purple {
+    background-color: #C8C6FA;
+}
+
