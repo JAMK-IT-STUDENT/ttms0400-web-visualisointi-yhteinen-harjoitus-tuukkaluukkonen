@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* make EVERYTHING use border box */
@@ -7,48 +9,58 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 header, section, nav, main, article {
     display:    flex;
-    width:      100ww;
-    padding:    15px;
+    width:      100%;
+    
     text-align: center;
     justify-content: center;
     align-items: center;
+    
     
 }
 
 nav {
     background-color: #5995DA;
+    
 }
 
 header {
     background-color: #B2D6FF;
+    padding: 50px;
 }
 
 main {
     background-color: #EAEDF0;
     height: 300px;
+    padding: 50px;
     
 }
 
 section {
     background-color: #D6E9FE;
+    padding: 50px;
 }
 
 /* Background colors */
 
 .bg-yellow {
     background-color: #F5CF8D;
+    padding: 50px;
 }
 
 .bg-red {
     background-color: #F09A9D;
+    padding: 50px;
 }
 
 .bg-purple {
     background-color: #C8C6FA;
+    padding: 50px;
 }
 
 * {
