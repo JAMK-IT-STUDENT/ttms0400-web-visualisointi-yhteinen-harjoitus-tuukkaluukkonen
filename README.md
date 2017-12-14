@@ -1,1 +1,0 @@
-#we-visu-harkat-tuukkaluukkonen
